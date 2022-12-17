@@ -1,0 +1,1 @@
+# Classificacao_com_AutoML_em_manutencao_preditiva_de_maquinas
