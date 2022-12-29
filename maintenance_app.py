@@ -30,14 +30,23 @@ Type_M = st.radio('Média qualidade do equipamento [0: não] [1: sim]:', options
 lista3 = ['0', '1']
 Type_H = st.radio('Alta qualidade do equipamento [0: não] [1: sim]:', options = lista3)
 
+features = {'Air_temperature': Air_temperature, 'Process_temperature': Process_temperature,
+            'Rotational_speed': Rotational_speed, 'Torque': Torque,
+            'Toll_wear': Toll_wear, 'Type_L': Type_L,
+            'Type_M': Type_M, 'Type_H': Type_H
+            }
+
+features_df  = pd.DataFrame([features], dtype=float)
+
+# st.table(features_df)
 
 if (os.path.exists('classifier_multiclass.pkl')):
     modelo = load('classifier_multiclass.pkl')
     botao = st.button('Previsão do tipo de falha [Multiclasse]')
     if(botao):
-        listaValores = np.array([[Air_temperature, Process_temperature, Rotational_speed, Torque, Toll_wear, Type_L, Type_M, Type_H]], dtype=float)
-        resultado = modelo.predict(listaValores)
-
+        
+        resultado = modelo.predict(features_df)
+        
         if(resultado[0] == 'Random Failures'):
             st.success('##### Random Failures')
         
@@ -52,6 +61,7 @@ if (os.path.exists('classifier_multiclass.pkl')):
     
         elif(resultado[0] == 'Heat Dissipation Failure'):
             st.success('##### Heat Dissipation Failure')
+
         else:
             st.success('##### No Failure')
 
