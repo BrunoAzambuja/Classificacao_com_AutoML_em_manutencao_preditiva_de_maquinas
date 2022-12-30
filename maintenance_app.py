@@ -8,7 +8,7 @@ from joblib import dump, load
 # text elements
 st.title(' Previsão de falhas em equipamentos')
 st.write('##### App que utiliza machine learning para prever os tipos de falhas.')
-st.write(' Preencha os dados de medição do equipamento na barra lateral antes de selecionar o botão de previsão abaixo.')
+st.write(' Preencha os dados de medição do equipamento na barra lateral [>] antes de selecionar o botão de previsão abaixo.')
 
 # input widgets
 
