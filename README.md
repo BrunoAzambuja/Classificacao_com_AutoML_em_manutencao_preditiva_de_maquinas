@@ -15,6 +15,10 @@ O PyCaret possibilita que Cientistas de Dados completem experimentos de ponta a 
 
 Todas as operações realizadas com o PyCaret estão carregadas em um pipeline que está pronto para o deploy. Basicamente, o PyCaret é um pacote low-code que engloba diversas bibliotecas e frameworks de Machine Learning como scikit-learn, XGBoost, Microsoft LightGBM, spaCy e muito mais. 
 
+> O objetivo desse projeto é prever a falha de máquinas (binária) assim como do seu tipo de falha (multiclasse), propondo soluções eficientes de Machine Learning com o uso do PyCaret. 
+
+> Além disso este estudo visa à contextualização do problema e à análise completa dos dados como base para insights que possam direcionar ações de melhoria do desempenho do negócio.
+
 
 <p align="center"><img src="https://pycaret.org/wp-content/uploads/2020/03/Divi93_43.png" width="40%"></p>
 
