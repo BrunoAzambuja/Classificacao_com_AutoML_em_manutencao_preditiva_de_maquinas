@@ -18,4 +18,4 @@ Todas as operações realizadas com o PyCaret estão carregadas em um pipeline q
 
 <p align="center"><img src="https://pycaret.org/wp-content/uploads/2020/03/Divi93_43.png" width="40%"></p>
 
-[Clique aqui para acessar o projeto](https://colab.research.google.com/drive/1GW6le4KDqwo2SoNt2UNXdhkRtIPT-AG3#scrollTo=GRMm_Y89FLW6)
+[CLIQUE AQUI PARA ACESSAR O PROJETO](https://colab.research.google.com/drive/1GW6le4KDqwo2SoNt2UNXdhkRtIPT-AG3#scrollTo=GRMm_Y89FLW6)
