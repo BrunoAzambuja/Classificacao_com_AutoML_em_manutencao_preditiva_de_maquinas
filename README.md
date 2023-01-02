@@ -17,7 +17,8 @@ Todas as operações realizadas com o PyCaret estão carregadas em um pipeline q
 
 <p align="center"><img src="https://pycaret.org/wp-content/uploads/2020/03/Divi93_43.png" width="40%"></p>
 
-> O objetivo desse projeto é prever a falha de máquinas (binária) assim como do seu tipo de falha (multiclasse), propondo soluções eficientes de Machine Learning com o uso do PyCaret. 
+> O objetivo desse projeto é prever a falha de máquinas (binária) assim como do seu tipo de falha (multiclasse), propondo soluções eficientes de Machine Learning com o uso do PyCaret.
+> 
 > Além disso este estudo visa à contextualização do problema e à análise completa dos dados como base para insights que possam direcionar ações de melhoria do desempenho do negócio.
 
 [CLIQUE AQUI PARA ACESSAR O PROJETO](https://colab.research.google.com/drive/1GW6le4KDqwo2SoNt2UNXdhkRtIPT-AG3#scrollTo=GRMm_Y89FLW6)
