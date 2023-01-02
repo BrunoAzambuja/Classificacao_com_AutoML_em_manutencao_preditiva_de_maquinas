@@ -5,8 +5,6 @@
 
 <p align=center><img src="https://device-insight.com/wp-content/uploads/2018/03/Predictive-Maintenance-e1644243465650.jpg" width="80%"></p>
 
-**PyCaret**
-
 A ferramenta de Auto Machine Learning escolhida para fazer os modelos de classificações no *dataset* de manutenção preditiva em máquinas será o PyCaret. O PyCaret é uma biblioteca *open-source* e *low-code* de Python que tem como objetivo reduzir o templo entre o ciclo de uma hipótese e os insights em experimentos com Machine Learning.
 
 O PyCaret possibilita que Cientistas de Dados completem experimentos de ponta a ponta de forma rápida e eficiente. Em comparação com outras bibliotecas do tipo, o PyCaret traz o diferencial de ser *low-code*, isto é, demanda pouco código para que opere de forma robusta. 
