@@ -3,9 +3,7 @@
 
 *by [Bruno Azambuja](https://www.brunoazambuja.com/)*
 
-<p align=center>
-<img src="https://device-insight.com/wp-content/uploads/2018/03/Predictive-Maintenance-e1644243465650.jpg
-" width="80%"></p>
+<p align=center><img src="https://device-insight.com/wp-content/uploads/2018/03/Predictive-Maintenance-e1644243465650.jpg" width="80%"></p>
 
 **PyCaret**
 
