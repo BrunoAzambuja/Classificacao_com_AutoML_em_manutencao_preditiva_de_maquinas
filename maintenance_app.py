@@ -6,10 +6,9 @@ import sklearn
 from joblib import dump, load
 
 # text elements
-st.title(' Classificação para manutenção preditiva')
-st.write('#### App que utiliza machine learning como modelo de previsão de falhas em equipamentos.')
-st.caption(' Indica o tipo de falha que o equipamento pode apresentar, assim como a ausência da falha (classificação multiclasse):')
-st.sidebar.write('### Preencha os campos abaixo com os dados de medição do equipamento:')
+st.title(' Previsão de falhas em equipamentos')
+st.write('##### App que utiliza machine learning para prever os tipos de falhas.')
+st.write(' Preencha os dados de medição do equipamento na barra lateral [>] antes de selecionar o botão de previsão abaixo.')
 
 # input widgets
 
@@ -62,7 +61,7 @@ features_df  = pd.DataFrame([features], dtype=float)
 
 if (os.path.exists('classifier_multiclass.pkl')):
     modelo = load('classifier_multiclass.pkl')
-    botao = st.sidebar.button('Gerar a previsão')
+    botao = st.button('Previsão do tipo de falha')
     if(botao):
         
         resultado = modelo.predict(features_df)
@@ -87,3 +86,6 @@ if (os.path.exists('classifier_multiclass.pkl')):
 
 else:
     st.error('Erro ao carregar o modelo preditivo. Contacte o administrador do sistema.')
+
+
+
